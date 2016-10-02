@@ -40,6 +40,7 @@ public class Solution {
         part_output.remove(part_output.size() - 1);// this is help us to delete every added element after each iteration is finished.
         // every time we go to a deep iteration we will add a new element to the list, this will help us to delete that element we finish the iteration.
         // so out list is not polluted by the iteration and alway ready for the next iteration.
+        // this is called backtrack
     }
 }
 
